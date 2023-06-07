@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Site</title>
     <style>
-        body{
+        .page{
+            background-color: black;
             text-align: center;
+            color: white;
+            font-size: 25;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .box{
+            padding: 10px;
+            border: solid 2px blue;
         }
     </style>
 </head>
-<body id="body">
-    <h1>Bem-Vin</h1>
-    <p>Teste para o <em>GitHub</em></p>
-    <p>ihasiyhudashasdhbasdhbdashbjashbasdhsadbhasd</p>
+<body class="page">
+    <h1>Página de Login</h1>
+    <div class="box">
+        <input type="text" name="email" size="15" value="e-mail">
+        <input type="password" name="senha" size="15" value="senha">
+        <button>ENTRAR</button>
+        <p>Ainda não tem uma conta?<button>Criar conta</button></p>
+    </div>
 </body>
 </html>
